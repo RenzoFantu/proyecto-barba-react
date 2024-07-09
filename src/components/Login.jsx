@@ -43,7 +43,7 @@ const Login = () => {
                     </div>
                 </div>
                 <form onSubmit={onSubmit}>
-                    <h3>{isMember ? "Login" : "Registrate"}</h3>
+                    <h1>{isMember ? "Login" : "Registrate"}</h1>
                     {!isMember && (
                         <>
                             <div className="input-box">

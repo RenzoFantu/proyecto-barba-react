@@ -3,7 +3,7 @@ body{
 }
 
 .container{
-    background-image:   linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('https://res.cloudinary.com/da2aauwq2/image/upload/v1712446199/Beard-Store/mz43kky5f5ha7isf0wzu.png');
+    background-image:   linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(https://res.cloudinary.com/da2aauwq2/image/upload/v1712446199/Beard-Store/mz43kky5f5ha7isf0wzu.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     max-width: 100%;
