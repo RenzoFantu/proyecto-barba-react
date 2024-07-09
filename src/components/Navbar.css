@@ -1,0 +1,86 @@
+
+.backc{
+    background-color: #1c1c1c!important;
+    
+    padding:0;
+   
+    height: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.dropdown-menu {
+    background-color: #1c1c1c3f;
+    backdrop-filter: blur( 10px );
+    
+}
+.dropdown-menu a{
+    color: #F9F914;
+    font-weight: 300 !important;
+    
+}
+.logo{
+    width:8rem;
+}
+.container-fluid{
+    max-height: 100%;
+    /* padding-bottom: 30px; */
+    position: relative;
+    top: 0;
+   
+    
+}
+.nav-link{
+    color: #F9F914 !important;
+    
+}
+.me-auto{
+    
+    margin: 0 !important;
+    
+}
+.me-auto a{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 4px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+@media (max-width: 992px){
+    .me-auto{
+        max-height: 100%;
+        flex-direction: column !important;
+    }
+    .navbar-collapse{
+        display: block;
+
+    }
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    flex-grow: 0 !important;
+    flex-wrap: wrap !important;
+}
+.navbar-collapse button{
+    color: #F9F914;
+    border-color: #F9F914;
+}
+.navbar-toggler{
+    color: #F9F914;
+    
+}
+
+.navbar-toggler-icon {
+    
+    
+    background-image: url('https://res.cloudinary.com/da2aauwq2/image/upload/v1712467406/Beard-Store/ev6hylnqnvbywyiv7chu.png') !important;
+    
+    
+    
+}
+
+

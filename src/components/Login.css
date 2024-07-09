@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Tomorrow", sans-serif;
+
+}
+
+body {
+    box-sizing: border-box;
+
+
+}
+
+.navbar {
+    background-color: #FFFF2D;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 100;
+
+}
+
+.navbar-toggler {
+    color: #FFFF2D !important;
+    border: 0 !important;
+}
+
+.logo {
+    width: 10vh;
+}
+
+.container-div-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0 0 0 / .6), rgba(0 0 0 / .6)), url(https://res.cloudinary.com/da2aauwq2/image/upload/v1712446199/Beard-Store/mz43kky5f5ha7isf0wzu.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px !important;
+    height: 100vh;
+
+    /* display: grid !important; */
+    /* grid-template-columns: repeat(2,50%) !important;
+    
+    /* width: 1000px !important; */
+}
+
+/* @media (max-width = 1132px){
+    .container-div-contacto{
+        height: 100vh;
+    }
+} */
+.box-info {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50vh;
+}
+@media (max-width:877px){
+    .box-info{
+        gap:10px ;
+    }
+}
+
+.box-info h1 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 300px) {
+    .data {
+        gap: 10px
+    }
+}
+
+.data p {
+    font-size: 1rem;
+    margin-bottom: 20px !important;
+
+}
+
+.data p i {
+    color: #FFFF2D;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+@media (max-width: 895px) {
+    .links {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.links a {
+
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFF2D;
+    text-align: center ;
+    transition: .1s;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #2F3129;
+}
+
+.links a i {
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+
+
+}
+
+.links a i {
+    color: black;
+
+}
+
+.fa-whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    width: 50vh;
+}
+form h1{
+    color: #fff;
+}
+
+.input-box {
+    position: relative;
+
+}
+
+.input-box input:focus,
+.input-box textarea {
+    border-bottom: 3px solid #FFFF2D;
+    /* animation: shake .2s; no se si sirve */
+}
+
+.input-box input:focus::placeholder,
+.input-box textarea:focus::placeholder {
+    color: #a3a3a3;
+}
+
+.input-box input:focus::placeholder,
+.input-box textarea:focus::placeholder {
+    color: transparent;
+}
+
+.input-box input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    outline: none;
+    background-color: rgba(255 255 255 / 0.8);
+    border: 3px solid transparent;
+    letter-spacing: 1px;
+    transition: .3s;
+    /* color: #fff; */
+
+}
+
+.input-box textarea {
+    width: 100%;
+    height: 130px;
+    background-color: rgba(255 255 255 / 0.8);
+    border: 3px solid transparent;
+    letter-spacing: 1px;
+    transition: .3s;
+    color: #fff;
+    padding: 10px;
+    outline: none;
+}
+
+.input-box i {
+    color: rgba(255 255 255 / .3);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    transition: .3s;
+
+}
+
+.input-box input:focus~i {
+    color: #FFFF2D;
+}
+
+form button {
+    background: #FFFF2D;
+    color: #2F3129;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+form button:hover,
+.links a:hover {
+    background-color: #fefe63;
+    box-shadow: 1px 1px 10px #FFFF2D;
+
+}
+.btn-outline-success{
+    border-color: #FFFF2D;
+    color: #FFFF2D;
+}
+.btn-outline-success:hover{
+    background-color: #fefe63;
+    box-shadow: 1px 1px 10px #FFFF2D;
+    color: black;
+}
