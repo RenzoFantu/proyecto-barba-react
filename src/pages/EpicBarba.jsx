@@ -48,8 +48,8 @@ const EpicBarba = () => {
                     <h3>$ 39.990</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae incidunt deleniti pariatur i laborum.</p>
                     <hr />
-                    <Button>Hola</Button>
-                    <Button>Chao</Button>
+                    <Button className='boton-buy'>Comprar</Button>
+                    
                 </div>
             </div>
 

@@ -70,7 +70,34 @@ p {
     }
     
 }
-button{
-    padding: 30px;
+
+.boton-buy{
+    background: #FFFF2D !important;
+    color: #2F3129 !important;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px !important;
+    border-radius: 10px ;
+    font-size: x-large;
+    width: 100%;
+    
+}
+
+.boton-buy:hover,
+.links a:hover {
+    background-color: #fefe63;
+    box-shadow: 1px 1px 10px #FFFF2D;
+
+}
+.btn-outline-success{
+    border-color: #FFFF2D;
+    color: #FFFF2D;
+}
+.btn-outline-success:hover{
+    background-color: #fefe63;
+    box-shadow: 1px 1px 10px #FFFF2D;
+    color: black;
 }
 

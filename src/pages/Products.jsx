@@ -31,7 +31,7 @@ const Products = () => {
                         <Card.Body>
                             <Card.Title>{product.name}</Card.Title>
                             <Card.Text>{product.price}</Card.Text>
-                            <Button variant="primary">Ver Detalles</Button>
+                            <Button className='btn-product' variant="primary">Ver Detalles</Button>
                         </Card.Body>
                     </Card>
                 ))}
