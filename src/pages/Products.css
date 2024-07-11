@@ -1,0 +1,37 @@
+.container-card {
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap !important;
+    padding: 0 0 30px 0;
+    
+
+}
+.card1 {
+    
+
+    background-color: #1C1C1C;
+    color: white;
+    
+    /* background-position: top; */
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none !important;
+
+}
+
+@media (hover:hover) {
+    .card1:hover {
+        
+        box-shadow: 0px 0px 10px rgb(238, 255, 0);
+    }
+
+}
+
+.card1:active {
+
+
+    box-shadow: 0px 0px 10px rgb(238, 255, 0);
+
+}

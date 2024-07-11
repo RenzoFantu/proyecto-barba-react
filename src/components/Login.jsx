@@ -20,6 +20,8 @@ const Login = () => {
 
         if (isMember) {
             const userData = await login(dataObject);
+            const {token} = userData.detail
+            console.log('TOKEN', token)
             
         } else {
             const userData = await signup(dataObject);
