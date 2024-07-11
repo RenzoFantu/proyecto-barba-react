@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import EpicBarba from './pages/EpicBarba';
 import Login from './components/Login';
+import Products from './pages/Products';
 
 
 //import './App.css'
@@ -22,8 +23,8 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/' element = {<Home/>}></Route>
-        <Route path='/epicbarba' element = {<EpicBarba/>}></Route>
-         <Route path='/login' element = {<Login />}></Route>
+        <Route path='/products' element = {<EpicBarba/>}></Route>
+        <Route path='/login' element = {<Login />}></Route>
       </Routes>
       <Footer/>
     </>
