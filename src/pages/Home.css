@@ -28,13 +28,19 @@ body{
     
     
 }
-@media (max-width: 450px){
+/* https://res.cloudinary.com/da2aauwq2/image/upload/v1720757462/1_arxqw8.png */
+
+@media (max-width: 500px){
     .container{
        
         
-        /* background-size: cover; */
-        background-position: 0px 50px;
-        max-width: 100%;
+    background-image:   linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(https://res.cloudinary.com/da2aauwq2/image/upload/v1720757462/1_arxqw8.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
        
         
         
