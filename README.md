@@ -1,6 +1,6 @@
 ![Logo de Epic Barba Store](https://res.cloudinary.com/da2aauwq2/image/upload/v1713512881/Beard-Store/logo2.png)
 
-#Barba Store
+# Barba Store
 
 Barba Store es una aplicación web para mostrar y vender productos relacionados con el cuidado de la barba. La aplicación permite a los usuarios navegar por una lista usuarios en base de datos de Mongo DB, ver detalles de cada producto y realizar acciones como navegar por la pagina hacer log in y crearse como cliente.
 
