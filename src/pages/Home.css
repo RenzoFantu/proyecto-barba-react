@@ -32,8 +32,8 @@ body{
     .container{
        
         
-        background-size: cover;
-        background-position: 0px 10px;
+        /* background-size: cover; */
+        background-position: 0px 50px;
         max-width: 100%;
        
         
