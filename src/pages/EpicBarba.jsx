@@ -44,9 +44,9 @@ const EpicBarba = () => {
                 </div>
 
                 <div className="description-gallery">
-                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
+                    <h1>Recortadora de barba Epic Barba </h1>
                     <h3>$ 39.990</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae incidunt deleniti pariatur i laborum.</p>
+                    <p>¡Transforma tu rutina de cuidado personal con nuestra Recortadora de Barba 4 en 1! Logra una barba perfecta en casa sin necesidad de ir al barbero. Incluye contorneadora, afeitadora de cuello, peine ajustable de 1 a 12 mm y rasuradora de vello nasal. Ahorra tiempo y dinero mientras mantienes un look impecable todos los días.</p>
                     <hr />
                     <Button className='boton-buy'>Comprar</Button>
                     
@@ -56,12 +56,12 @@ const EpicBarba = () => {
             <div className="first-img-container">
                 <img src="https://res.cloudinary.com/da2aauwq2/image/upload/v1713234733/Beard-Store/poavr6kp7q95l2boh9me.png" alt="barba-store" />
             </div>
-            {/* Agrega más elementos de imagen según sea necesario */}
+            <div className="first-img-container">
+                <img src="https://res.cloudinary.com/da2aauwq2/image/upload/v1713237457/Beard-Store/rxsssp1nwbu3ipxqyyuf.png" alt="barba-store" />
+            </div>
+            
 
-            <p>
-                ¿Qué hace a Epic Barba tan único y esencial para tu rutina de cuidado de la barba? Déjame llevarte a un viaje por sus características increíbles:
-                {/* Aquí puedes incluir más contenido */}
-            </p>
+            
         </div>
     );
 }

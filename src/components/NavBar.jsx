@@ -20,12 +20,12 @@ function NavBar() {
             
           >
             <Nav.Link as = {Link} to = '/'>Inicio</Nav.Link>
-            <Nav.Link href="#action2">Nosotros</Nav.Link>
+            <Nav.Link as = {Link} to = '/nosotros'>Nosotros</Nav.Link>
 
             <NavDropdown title="Productos" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to = '/epicbarba' href="#action/3.2">Epic Barba</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1">No Pendejo</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">No Barba</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to = '/products' href="#action/3.2">Epic Barba</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Happy Balls</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Shampoo Barba</NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>
             

@@ -101,3 +101,9 @@ p {
     color: black;
 }
 
+.image-gallery-image{
+    width: 80% !important;
+    border-radius: 15px !important;
+    
+}
+

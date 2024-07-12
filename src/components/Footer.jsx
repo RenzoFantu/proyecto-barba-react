@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faSquareInstagram, faSquareWhatsapp} from '@fortawesome/free-brands-svg-icons'
 import './Footer.css'
-
+import { Link } from 'react-router-dom'
 
 
 const Footer = () => {
@@ -23,21 +23,16 @@ const Footer = () => {
             <div className="footer-links">
                 <h4>NOSOTROS</h4>
               <ul>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Trabajos</a></li>
-                  <li><a href="#">Prensa</a></li>
-                  <li><a href="#">Partners</a></li>
+                  <li><Link to='/nosotros'>Nosotros</Link></li>
+                  <li><Link to='/allproducts'>Nuestros Productos</Link></li>
+                  
               </ul>
           </div>
           <div className="footer-links">
-                <h4>NOSOTROS</h4>
+                <h4>ÚNETE AL CLUB </h4>
               <ul>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Trabajos</a></li>
-                  <li><a href="#">Prensa</a></li>
-                  <li><a href="#">Partners</a></li>
+              <li><Link to='/login'>Unete al Club</Link></li>
+                  
               </ul>
           </div>
           

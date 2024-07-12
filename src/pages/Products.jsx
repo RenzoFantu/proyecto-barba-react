@@ -26,7 +26,7 @@ const Products = () => {
         <div>
             <div className='container-card'>
                 {products.map(product => (
-                    <Card as ={Link} to = '/products' className='card1' key={product._id} style={{ width: '18rem', margin: '10px' }}>
+                    <Card as = {Link} to = "/products" className='card1' key={product._id} style={{ width: '18rem', margin: '10px' }}>
                         <Card.Img variant='top' src={product.url} />
                         <Card.Body>
                             <Card.Title>{product.name}</Card.Title>
@@ -41,4 +41,5 @@ const Products = () => {
 }
 
 export default Products;
+
 

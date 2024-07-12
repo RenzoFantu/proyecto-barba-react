@@ -1,0 +1,20 @@
+h1, h2{
+    color: white
+}
+p{
+    font-size: 1.3rem;
+}
+
+.nosotrosDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0 0 0 / .6), rgba(0 0 0 / .6)), url(https://res.cloudinary.com/da2aauwq2/image/upload/v1712446199/Beard-Store/mz43kky5f5ha7isf0wzu.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px !important;
+    height: 100%;
+}
