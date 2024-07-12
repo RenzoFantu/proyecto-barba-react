@@ -30,12 +30,12 @@ Asegúrate de tener instalados Node.js y npm (Node Package Manager).
    ```bash
    git clone https://github.com/tu-usuario/epic-barba-store.git
    cd epic-barba-store
-2. *Variables de entorno .env**
+2. **Variables de entorno .env**
 
    ```bash
    VITE_BACKEND_URL=https://api-res-express-barba.vercel.app/v1
 
-3. *Repositorio Backend**
+3. **Repositorio Backend**
 
    ```bash
    https://github.com/RenzoFantu/api-res-express-barba
