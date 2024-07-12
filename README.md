@@ -6,7 +6,7 @@ Barba Store es una aplicación web para mostrar y vender productos relacionados 
 
 ## Tecnologías Utilizadas
 
-- **Frontend**: React, React Router, React Bootstrap
+- **Frontend**: React, React Router, React Bootstrap, useContext
 - **Backend**: Node.js, Express.js
 - **Base de Datos**: MongoDB
 - **Otros**: Axios para llamadas API, react-image-gallery para la galería de imágenes
