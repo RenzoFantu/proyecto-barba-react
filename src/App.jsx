@@ -8,6 +8,7 @@ import EpicBarba from './pages/EpicBarba';
 import Login from './components/Login';
 import Products from './pages/Products';
 import Nosotros from './pages/Nosotros';
+import { ProductProvider } from './context/ProductContext';
 
 
 //import './App.css'
@@ -17,19 +18,21 @@ import Nosotros from './pages/Nosotros';
 
 
 function App() {
-  
+
 
   return (
     <>
-      <NavBar/>
-      <Routes>
-        <Route path='/' element = {<Home/>}></Route>
-        <Route path='/products' element = {<EpicBarba/>}></Route>
-        <Route path='/allproducts' element = {<Products/>}></Route>
-        <Route path='/nosotros' element = {<Nosotros/>}></Route>
-        <Route path='/login' element = {<Login />}></Route>
-      </Routes>
-      <Footer/>
+      <NavBar />
+      <ProductProvider>
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/products' element={<EpicBarba />}></Route>
+          <Route path='/allproducts' element={<Products />}></Route>
+          <Route path='/nosotros' element={<Nosotros />}></Route>
+          <Route path='/login' element={<Login />}></Route>
+        </Routes>
+      </ProductProvider>
+      <Footer />
     </>
   )
 }

@@ -1,12 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import axios from "axios";
 import { Card, Button } from 'react-bootstrap';
 import './Products.css'
 import { Link } from 'react-router-dom';
+import { ProductContex } from '../context/ProductContext';
 
 const Products = () => {
     const BASE_URL = `${import.meta.env.VITE_BACKEND_URL}/products`;
-    const [products, setProducts] = useState([]);
+    const {products, setProducts} = useContext(ProductContex)
+    // const [products, setProducts] = useState([]);
 
     useEffect(() => {
         fetchData();
