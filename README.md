@@ -6,7 +6,7 @@ Barba Store es una aplicación web para mostrar y vender productos relacionados 
 
 ## Tecnologías Utilizadas
 
-- **Frontend**: React, React Router, React Bootstrap
+- **Frontend**: React, React Router, React Bootstrap, useContext
 - **Backend**: Node.js, Express.js
 - **Base de Datos**: MongoDB
 - **Otros**: Axios para llamadas API, react-image-gallery para la galería de imágenes
@@ -28,8 +28,8 @@ Asegúrate de tener instalados Node.js y npm (Node Package Manager).
 1. **Clonar el repositorio**
 
    ```bash
-   git clone https://github.com/tu-usuario/epic-barba-store.git
-   cd epic-barba-store
+   git clone https://github.com/RenzoFantu/proyecto-barba-react.git
+   
 2. **Variables de entorno .env**
 
    ```bash
