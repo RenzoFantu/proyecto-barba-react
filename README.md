@@ -28,8 +28,8 @@ Asegúrate de tener instalados Node.js y npm (Node Package Manager).
 1. **Clonar el repositorio**
 
    ```bash
-   git clone https://github.com/tu-usuario/epic-barba-store.git
-   cd epic-barba-store
+   git clone https://github.com/RenzoFantu/proyecto-barba-react.git
+   
 2. **Variables de entorno .env**
 
    ```bash
